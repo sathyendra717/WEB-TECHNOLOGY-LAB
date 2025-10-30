@@ -10,10 +10,18 @@
     p, ul, div { margin: 10px 0; padding: 10px; }
     p, ul li { color: #333; }
     .box { width: 100px; height: 100px; background-color: #f4f4f4; }
+
+    #info{
+        text-align: left;
+        font-weight: 700;
+        color:white;
+        background:linear-gradient(rgba(0, 0, 255, 0.61),rgba(255, 0, 0, 0.548));
+        text-transform: uppercase;
+    }
   </style>
 </head>
 <body>
-
+<p id="info">Sathyendra Bhat - 4MW23CS140</p>
   <h2>Append Content</h2>
   <p id="para">This is an existing paragraph.</p>
   <ul id="list">
