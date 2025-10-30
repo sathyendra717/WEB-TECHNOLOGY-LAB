@@ -28,9 +28,9 @@
 
   <script>
       $(document).ready(function() {
-  let itemCount = $('#list li').length; // Initialize with the current number of items in the list
+  let itemCount = $('#list li').length; 
 
-  // Append content to paragraph and list with a unique item number
+  
   $('#appendBtn').click(() => {
     itemCount++; // Increment the item number
     $('#para').append(` Appended text ${itemCount}.`);
@@ -38,7 +38,7 @@
   });
 });
 
-      // Animate element and change color
+      
       $('#animateBtn').click(() => {
   $('#animateBox').css({ width: '100px', height: '100px', 'background-color': '#f4f4f4' }) // Reset properties
     .animate({ width: '150px', height: '150px' }, 500, function() {
