@@ -41,7 +41,7 @@
       xhr.send();
     }
 
-    // b) Using jQuery AJAX to load text content
+ 
     $('#loadBtn').click(function() {
       $.ajax({
         url: 'sample.txt',
@@ -52,7 +52,6 @@
       });
     });
 
-    // c) Using getJSON() method
     $('#loadJsonBtn').click(function() {
       $.getJSON('data.json', function(data) {
         $('#jsonContent').html(
@@ -63,7 +62,6 @@
       });
     });
 
-    // d) Using parseJSON() to parse JSON string and display data
     $('#parseJsonBtn').click(function() {
       const jsonString = '{"name": "Alice", "age": 25, "country": "USA"}';
       const jsonObject = $.parseJSON(jsonString);
