@@ -7,11 +7,18 @@
     body { font-family: Arial, sans-serif; margin: 20px; }
     button { margin: 5px 0; padding: 8px 12px; }
     .content, .jsonContent { margin-top: 10px; padding: 10px; border: 1px solid #ddd; }
+#info{
+        text-align: left;
+        font-weight: 700;
+        color:white;
+        background:linear-gradient(rgba(0, 0, 255, 0.61),rgba(255, 0, 0, 0.548));
+        text-transform: uppercase;
+    }
   </style>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
-
+<p id="info">Sathyendra Bhat - 4MW23CS140</p>
   <h2>Ajax without jQuery</h2>
   <button onclick="loadContent()">Load Text Content (No jQuery)</button>
   <div id="content" class="content">Content from the file will load here.</div>
